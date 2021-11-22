@@ -87,10 +87,10 @@ h1:hover {
   right: 0;
   z-index: auto;
 }
-@media (min-width: 800px) {
+@media (max-width: 768px) {
   .nav h1,
   .slider h1 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 
   .nav h2,
@@ -101,6 +101,16 @@ h1:hover {
   .nav-tab {
     font-size: 1vw;
   }
+
+  .background {
+    opacity: 0;
+    display: none;
+   }
+
+   p {
+     font-size: 2vw;
+   }
+  
 }
 
 @media screen only (min-width: 360px) {
@@ -118,6 +128,9 @@ h1:hover {
   .nav-tab {
     font-size: 2vw;
   }
+  .background {
+    opacity: 0;
+   }
 }
 
 .background {
